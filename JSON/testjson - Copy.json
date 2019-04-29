@@ -1,0 +1,31 @@
+{
+"GlobalCalculation": "function test(){return 9541;}", // Globaly accessible variables and functions.
+"State": 1, // State of device (Offline: 1, Online: 2). In cli mode the de
+"device_family": "Mcam", // Device family name.
+"device_name": "PXR", // Device name.
+"events": [], // List of register events.
+"properties": [
+{
+"Calculation": "Math.random() * 1000", // Callculation to determined the value of the property.
+"Definition": "ID", // The name of the property.
+"Exception": 0, // The exception code to use when accessing the registers of t
+"FirstRegister": "400052", // The number of the register the propery starts with.
+"Format": 1, // The representation id of the property (Fixed: 1 2, Float: 3
+"Length": 2, // The number of registers the property has (Min: 1, Max: 4).
+"Sfactor": 10,
+"Value": "9520", // Value of the property.
+"events": [ // List of events applyed to the property.
+{
+"Calculation": "Math.random() * 1000", // Callculation to determined the value of the property on eve
+"Definition": "Current", // The name of the property.
+"Interval": 8, // Time in seconds between event fire.
+"StartTime": 5, // Time in seconds for the first event to fire.
+"StopTime": 600, // Time in seconds to stop firing the event.
+"Value": "" // Value of the property on event fire.
+}
+]
+}
+],
+"registers": [ // List of seperate registers
+]
+}

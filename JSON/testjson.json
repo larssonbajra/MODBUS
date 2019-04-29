@@ -1,0 +1,28 @@
+{
+    "GlobalCalculation": "function test(){ return 9541;}",
+    "State": 1,
+    "device_family": "",
+    "device_name": "MODBUS",
+    "events": [
+        {
+            "Definition": "Status Open",
+            "Interval": 120,
+            "RandMax": 0,
+            "RandMin": 0,
+            "Random": false,
+            "Register": "406145",
+            "StartTime": 0,
+            "StopTime": 0,
+            "Value": "6579"
+        }
+    ],
+    "properties": [
+    ],
+    "registers": [
+        {
+            "Definition": "",
+            "Register": "406145",
+            "Value": 6579
+        }
+    ]
+}

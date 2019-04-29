@@ -1,0 +1,1337 @@
+{
+    "Status": 2,
+    "device_family": "IZM",
+    "device_name": "IZMX16/40",
+    "events": [
+    ],
+    "properties": [
+        {
+            "Calculation": "",
+            "Definition": "device_specific_bytes",
+            "Exception": 0,
+            "FirstRegister": "406255",
+            "Format": 1,
+            "Length": 2,
+            "Sfactor": 0,
+            "Value": "773849348",
+            "events": [
+            ]
+        },
+        {
+            "Calculation": "",
+            "Definition": "STATUS",
+            "Exception": 0,
+            "FirstRegister": "406145",
+            "Format": 2,
+            "Length": 2,
+            "Sfactor": 0,
+            "Value": "66055",
+            "events": [
+            ]
+        },
+        {
+            "Calculation": "",
+            "Definition": "I1",
+            "Exception": 0,
+            "FirstRegister": "406147",
+            "Format": 2,
+            "Length": 2,
+            "Sfactor": 0,
+            "Value": "735",
+            "events": [
+                {
+                    "Calculation": "Math.floor(Math.random()*1000) + 0",
+                    "Definition": "I1 random",
+                    "Interval": 3,
+                    "StartTime": 0,
+                    "StopTime": 0,
+                    "Value": "735"
+                }
+            ]
+        },
+        {
+            "Calculation": "",
+            "Definition": "I2",
+            "Exception": 0,
+            "FirstRegister": "406149",
+            "Format": 2,
+            "Length": 2,
+            "Sfactor": 0,
+            "Value": "929",
+            "events": [
+                {
+                    "Calculation": "Math.floor(Math.random()*1000) + 0",
+                    "Definition": "I2 random",
+                    "Interval": 3,
+                    "StartTime": 0,
+                    "StopTime": 0,
+                    "Value": "929"
+                }
+            ]
+        },
+        {
+            "Calculation": "",
+            "Definition": "I3",
+            "Exception": 0,
+            "FirstRegister": "406151",
+            "Format": 2,
+            "Length": 2,
+            "Sfactor": 0,
+            "Value": "12",
+            "events": [
+                {
+                    "Calculation": "Math.floor(Math.random()*1000) + 0",
+                    "Definition": "I3 random",
+                    "Interval": 3,
+                    "StartTime": 0,
+                    "StopTime": 0,
+                    "Value": "12"
+                }
+            ]
+        },
+        {
+            "Calculation": "",
+            "Definition": "IG",
+            "Exception": 0,
+            "FirstRegister": "406153",
+            "Format": 2,
+            "Length": 2,
+            "Sfactor": 0,
+            "Value": "17",
+            "events": [
+                {
+                    "Calculation": "Math.floor(Math.random()*100) + 0",
+                    "Definition": "IG random",
+                    "Interval": 3,
+                    "StartTime": 0,
+                    "StopTime": 0,
+                    "Value": "17"
+                }
+            ]
+        },
+        {
+            "Calculation": "",
+            "Definition": "IN",
+            "Exception": 0,
+            "FirstRegister": "406155",
+            "Format": 2,
+            "Length": 2,
+            "Sfactor": 0,
+            "Value": "31",
+            "events": [
+                {
+                    "Calculation": "Math.floor(Math.random()*100) + 0",
+                    "Definition": "IN random",
+                    "Interval": 3,
+                    "StartTime": 0,
+                    "StopTime": 0,
+                    "Value": "31"
+                }
+            ]
+        },
+        {
+            "Calculation": "",
+            "Definition": "U12",
+            "Exception": 0,
+            "FirstRegister": "406159",
+            "Format": 2,
+            "Length": 2,
+            "Sfactor": 0,
+            "Value": "5966",
+            "events": [
+                {
+                    "Calculation": "Math.floor(Math.random()*6000) + 0",
+                    "Definition": "U12 random",
+                    "Interval": 3,
+                    "StartTime": 0,
+                    "StopTime": 0,
+                    "Value": "5966"
+                }
+            ]
+        },
+        {
+            "Calculation": "",
+            "Definition": "U23",
+            "Exception": 0,
+            "FirstRegister": "406161",
+            "Format": 2,
+            "Length": 2,
+            "Sfactor": 0,
+            "Value": "877",
+            "events": [
+                {
+                    "Calculation": "Math.floor(Math.random()*6000) + 0",
+                    "Definition": "U23 random",
+                    "Interval": 3,
+                    "StartTime": 0,
+                    "StopTime": 0,
+                    "Value": "877"
+                }
+            ]
+        },
+        {
+            "Calculation": "",
+            "Definition": "U31",
+            "Exception": 0,
+            "FirstRegister": "406163",
+            "Format": 2,
+            "Length": 2,
+            "Sfactor": 0,
+            "Value": "4234",
+            "events": [
+                {
+                    "Calculation": "Math.floor(Math.random()*6000) + 0",
+                    "Definition": "U31 random",
+                    "Interval": 3,
+                    "StartTime": 0,
+                    "StopTime": 0,
+                    "Value": "4234"
+                }
+            ]
+        },
+        {
+            "Calculation": "",
+            "Definition": "U1",
+            "Exception": 0,
+            "FirstRegister": "406167",
+            "Format": 2,
+            "Length": 2,
+            "Sfactor": 0,
+            "Value": "2986",
+            "events": [
+                {
+                    "Calculation": "Math.floor(Math.random()*4000) + 0",
+                    "Definition": "U1 random",
+                    "Interval": 3,
+                    "StartTime": 0,
+                    "StopTime": 0,
+                    "Value": "2986"
+                }
+            ]
+        },
+        {
+            "Calculation": "",
+            "Definition": "U2",
+            "Exception": 0,
+            "FirstRegister": "406169",
+            "Format": 2,
+            "Length": 2,
+            "Sfactor": 0,
+            "Value": "1839",
+            "events": [
+                {
+                    "Calculation": "Math.floor(Math.random()*4000) + 0",
+                    "Definition": "U2 random",
+                    "Interval": 3,
+                    "StartTime": 0,
+                    "StopTime": 0,
+                    "Value": "1839"
+                }
+            ]
+        },
+        {
+            "Calculation": "",
+            "Definition": "U3",
+            "Exception": 0,
+            "FirstRegister": "406171",
+            "Format": 2,
+            "Length": 2,
+            "Sfactor": 0,
+            "Value": "1398",
+            "events": [
+                {
+                    "Calculation": "Math.floor(Math.random()*4000) + 0",
+                    "Definition": "U3 random",
+                    "Interval": 3,
+                    "StartTime": 0,
+                    "StopTime": 0,
+                    "Value": "1398"
+                }
+            ]
+        },
+        {
+            "Calculation": "",
+            "Definition": "POWER_P_TOTAL",
+            "Exception": 0,
+            "FirstRegister": "404651",
+            "Format": 4,
+            "Length": 2,
+            "Sfactor": 0,
+            "Value": "4146",
+            "events": [
+                {
+                    "Calculation": "Math.floor(Math.random()*20000) + 0",
+                    "Definition": "P random",
+                    "Interval": 3,
+                    "StartTime": 0,
+                    "StopTime": 0,
+                    "Value": "4146"
+                }
+            ]
+        },
+        {
+            "Calculation": "",
+            "Definition": "POWER_Q_TOTAL",
+            "Exception": 0,
+            "FirstRegister": "404653",
+            "Format": 4,
+            "Length": 2,
+            "Sfactor": 0,
+            "Value": "1690",
+            "events": [
+                {
+                    "Calculation": "Math.floor(Math.random()*20000) + 0",
+                    "Definition": "Q random",
+                    "Interval": 3,
+                    "StartTime": 0,
+                    "StopTime": 0,
+                    "Value": "1690"
+                }
+            ]
+        },
+        {
+            "Calculation": "",
+            "Definition": "POWER_S_TOTAL",
+            "Exception": 0,
+            "FirstRegister": "404655",
+            "Format": 4,
+            "Length": 2,
+            "Sfactor": 0,
+            "Value": "14554",
+            "events": [
+                {
+                    "Calculation": "Math.floor(Math.random()*20000) + 0",
+                    "Definition": "S random",
+                    "Interval": 3,
+                    "StartTime": 0,
+                    "StopTime": 0,
+                    "Value": "14554"
+                }
+            ]
+        },
+        {
+            "Calculation": "",
+            "Definition": "Frequency",
+            "Exception": 0,
+            "FirstRegister": "406197",
+            "Format": 2,
+            "Length": 2,
+            "Sfactor": 0,
+            "Value": "512",
+            "events": [
+                {
+                    "Calculation": "Math.floor(Math.random()*200) + 400",
+                    "Definition": "Freq random",
+                    "Interval": 3,
+                    "StartTime": 0,
+                    "StopTime": 0,
+                    "Value": "512"
+                }
+            ]
+        },
+        {
+            "Calculation": "",
+            "Definition": "E_FWD",
+            "Exception": 0,
+            "FirstRegister": "406259",
+            "Format": 2,
+            "Length": 2,
+            "Sfactor": 0,
+            "Value": "114413",
+            "events": [
+                {
+                    "Calculation": "Math.floor(Math.random()*800000) + 0",
+                    "Definition": "E_FWD random",
+                    "Interval": 3,
+                    "StartTime": 0,
+                    "StopTime": 0,
+                    "Value": "114413"
+                }
+            ]
+        },
+        {
+            "Calculation": "",
+            "Definition": "E_REV",
+            "Exception": 0,
+            "FirstRegister": "406261",
+            "Format": 2,
+            "Length": 2,
+            "Sfactor": 0,
+            "Value": "406449",
+            "events": [
+                {
+                    "Calculation": "Math.floor(Math.random()*800000) + 0",
+                    "Definition": "E_REV random",
+                    "Interval": 3,
+                    "StartTime": 0,
+                    "StopTime": 0,
+                    "Value": "406449"
+                }
+            ]
+        },
+        {
+            "Calculation": "",
+            "Definition": "E_TOTAL",
+            "Exception": 0,
+            "FirstRegister": "406263",
+            "Format": 2,
+            "Length": 2,
+            "Sfactor": 0,
+            "Value": "261034",
+            "events": [
+                {
+                    "Calculation": "Math.floor(Math.random()*800000) + 0",
+                    "Definition": "E_TOTAL random",
+                    "Interval": 3,
+                    "StartTime": 0,
+                    "StopTime": 0,
+                    "Value": "261034"
+                }
+            ]
+        },
+        {
+            "Calculation": "",
+            "Definition": "E_APP",
+            "Exception": 0,
+            "FirstRegister": "406271",
+            "Format": 2,
+            "Length": 2,
+            "Sfactor": 0,
+            "Value": "482193",
+            "events": [
+                {
+                    "Calculation": "Math.floor(Math.random()*800000) + 0",
+                    "Definition": "E_APP random",
+                    "Interval": 3,
+                    "StartTime": 0,
+                    "StopTime": 0,
+                    "Value": "482193"
+                }
+            ]
+        },
+        {
+            "Calculation": "",
+            "Definition": "FC6",
+            "Exception": 0,
+            "FirstRegister": "425345",
+            "Format": 2,
+            "Length": 1,
+            "Sfactor": 0,
+            "Value": "0",
+            "events": [
+            ]
+        },
+        {
+            "Calculation": "",
+            "Definition": "COS_PHI",
+            "Exception": 0,
+            "FirstRegister": "404717",
+            "Format": 4,
+            "Length": 2,
+            "Sfactor": 0,
+            "Value": "0.03277525398880243",
+            "events": [
+                {
+                    "Calculation": "Math.random()",
+                    "Definition": "PF random",
+                    "Interval": 3,
+                    "StartTime": 0,
+                    "StopTime": 0,
+                    "Value": "0.03277525398880243"
+                }
+            ]
+        }
+    ],
+    "registers": [
+        {
+            "Definition": "group: 1",
+            "Register": "400001",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400002",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400003",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400004",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400005",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400006",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400007",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400008",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400009",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400010",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400011",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400012",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400013",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400014",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400015",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400016",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400017",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400018",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400019",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400020",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400021",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400022",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400023",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400024",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400025",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400026",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400027",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400028",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400029",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400030",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400031",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400032",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400033",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400034",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400035",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400036",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400037",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400038",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400039",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400040",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400041",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400042",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400043",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400044",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400045",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400046",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400047",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400048",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400049",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400050",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400051",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400052",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400053",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400054",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400055",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400056",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400057",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400058",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400059",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400060",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400061",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400062",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400063",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400064",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400065",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400066",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400067",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400068",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400069",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400070",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400071",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400072",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400073",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400074",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400075",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400076",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400077",
+            "Value": 0
+        },
+        {
+            "Definition": "group: 1",
+            "Register": "400078",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420481",
+            "Value": 6254
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420482",
+            "Value": 6144
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420483",
+            "Value": 6146
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420484",
+            "Value": 6148
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420485",
+            "Value": 6150
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420486",
+            "Value": 6154
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420487",
+            "Value": 6152
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420488",
+            "Value": 6158
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420489",
+            "Value": 6160
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420490",
+            "Value": 6162
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420491",
+            "Value": 4650
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420492",
+            "Value": 4652
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420493",
+            "Value": 4654
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420494",
+            "Value": 6258
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420495",
+            "Value": 6260
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420496",
+            "Value": 6262
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420497",
+            "Value": 6270
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420498",
+            "Value": 4716
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420499",
+            "Value": 6196
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420500",
+            "Value": 6166
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420501",
+            "Value": 6168
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420502",
+            "Value": 6170
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420503",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420504",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420505",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420506",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420507",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420508",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420509",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420510",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420511",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420512",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420513",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420514",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420515",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420516",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420517",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420518",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420519",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420520",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420521",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420522",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420523",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420524",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420525",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420526",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420527",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420528",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420529",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420530",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420531",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420532",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420533",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420534",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420535",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420536",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420537",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420538",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420539",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420540",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420541",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420542",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420543",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420544",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420545",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420546",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420547",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420548",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420549",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420550",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420551",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420552",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420553",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420554",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420555",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420556",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420557",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420558",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420559",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420560",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420561",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420562",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420563",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420564",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420565",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420566",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420567",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420568",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420569",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420570",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420571",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420572",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420573",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420574",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420575",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420576",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420577",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420578",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420579",
+            "Value": 0
+        },
+        {
+            "Definition": "Block register storage",
+            "Register": "420580",
+            "Value": 0
+        }
+    ]
+}
